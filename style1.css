@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #ffffff;
 }
 
 .hero {
-  padding: 20px;
+  padding: 2px;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@ body {
 .container {
   max-width: 2000px;
   margin: 0 auto;
-  padding: 0 200px;
+  padding: 0;
 }
 
 .card-group {
@@ -25,7 +25,7 @@ body {
   align-items: flex-start;
   gap: 20px;
   flex-wrap: nowrap; /* <── всі картки в одному рядку */
-  overflow-x: auto;  /* <── якщо екран замалий, можна прокручувати */
+  overflow-x: auto; /* <── якщо екран замалий, можна прокручувати */
   padding: 30px;
   border-radius: 20px;
   max-width: 1200px;
@@ -44,7 +44,6 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
-
 
 .card h2 {
   font-size: 22px;
@@ -77,7 +76,7 @@ body {
   align-items: center;
   font-size: 22px;
   color: #333;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .ice-cream {
@@ -93,7 +92,7 @@ body {
 }
 
 .title-section {
-   margin-top: 80px;
+  margin-top: 80px;
   text-align: center;
   margin-bottom: 10px;
 }
