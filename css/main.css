@@ -24,6 +24,11 @@ a {
   }
 }
 
+@media screen and (min-width: 320px) {
+  header {
+    background-color: #ffb8ca;
+  }
+}
 @media screen and (min-width: 768px) {
   header {
     padding-top: 6px;
@@ -38,6 +43,7 @@ a {
 }
 
 .logo {
+  padding-left: 20px;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -50,7 +56,12 @@ a {
   height: 50px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 767px) {
+  .btn-buy {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
   .btn-buy {
     background: #fff;
     color: #d5006d;
@@ -76,4 +87,245 @@ a {
   .header-list {
     display: none;
   }
+}
+
+.svg-menu {
+  width: 20px;
+  height: 12px;
+}
+
+.menu-button {
+  border: none;
+  outline: none;
+  background: none;
+  padding-right: 20px;
+}
+
+.head-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-menu {
+  width: 100%;
+  position: fixed;
+  height: 796px;
+  top: 0;
+  right: -100%;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 10px;
+  transition: right 400ms linear;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04), 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.mobile-nav.active {
+  right: 0;
+  display: none;
+}
+
+@media screen and (min-width: 320px) {
+  .hero {
+    padding-top: 36px;
+    padding-bottom: 121px;
+    background-color: #ffb8ca;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .icecream {
+    width: 90;
+    max-width: 171px;
+    position: relative;
+    z-index: 1;
+    bottom: -30px;
+  }
+}
+
+.circle {
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 1/1;
+  background: #fcbad3;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+@media screen and (min-width: 320px) {
+  .circle {
+    max-width: 346px;
+    z-index: 0;
+    top: 150px;
+    right: -90%;
+  }
+}
+
+.girl {
+  position: absolute;
+  bottom: -10px;
+  right: -50px;
+  text-align: center;
+}
+@media screen and (min-width: 320px) {
+  .girl {
+    display: none;
+  }
+}
+
+.girl img {
+  width: 232px;
+  max-width: 40vw;
+}
+@media screen and (min-width: 320px) {
+  .girl img {
+    display: none;
+  }
+}
+
+.girl p {
+  color: #d5006d;
+  font-size: 180px;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+@media screen and (min-width: 320px) {
+  .girl p {
+    display: none;
+  }
+}
+
+.eco {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+@media screen and (min-width: 320px) {
+  .eco {
+    display: none;
+  }
+}
+
+.eco img {
+  width: 250px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 320px) {
+  .eco img {
+    display: none;
+  }
+}
+
+.eco p {
+  font-size: 20px;
+  max-width: 280px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 320px) {
+  .eco p {
+    display: none;
+  }
+}
+
+.stats {
+  position: absolute;
+  top: 20%;
+  right: -60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+@media screen and (min-width: 320px) {
+  .stats {
+    display: none;
+  }
+}
+
+.stats .stat span {
+  font-size: 36px;
+  font-weight: bold;
+  color: #d5006d;
+}
+@media screen and (min-width: 320px) {
+  .stats .stat span {
+    display: none;
+  }
+}
+
+.stats .stat p {
+  font-size: 16px;
+  color: #333;
+}
+@media screen and (min-width: 320px) {
+  .stats .stat p {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .hero-title {
+    z-index: 10;
+  }
+}
+
+.btn,
+.btn-outline {
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn {
+  background: #d5006d;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 2px solid #d5006d;
+  color: #d5006d;
+}
+
+.btn:hover,
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.hero-title {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.passion {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
 }

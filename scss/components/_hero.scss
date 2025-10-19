@@ -1,0 +1,178 @@
+.hero {
+  @media screen and (min-width: 320px) {
+    padding-top: 36px;
+    padding-bottom: 121px;
+    background-color: #ffb8ca;
+  }
+}
+
+.icecream {
+  @media screen and (min-width: 320px) {
+    width: 90;
+    max-width: 171px;
+    position: relative;
+    z-index: 1;
+    bottom: -30px;
+  }
+}
+
+.circle {
+  @media screen and (min-width: 320px) {
+    max-width: 346px;
+    z-index: 0;
+    top: 150px;
+    right: -90%;
+  }
+  width: 100%;
+  max-width: 480px;
+  aspect-ratio: 1/1;
+  background: #fcbad3;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.girl {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  position: absolute;
+  bottom: -10px;
+  right: -50px;
+  text-align: center;
+}
+
+.girl img {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  width: 232px;
+  max-width: 40vw;
+}
+
+.girl p {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  color: #d5006d;
+  font-size: 180px;
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.2;
+}
+
+.eco {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.eco img {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  width: 250px;
+  margin-right: 15px;
+}
+
+.eco p {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  font-size: 20px;
+  max-width: 280px;
+  line-height: 1.5;
+}
+
+.stats {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  position: absolute;
+  top: 20%;
+  right: -60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.stats .stat span {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  font-size: 36px;
+  font-weight: bold;
+  color: #d5006d;
+}
+
+.stats .stat p {
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  font-size: 16px;
+  color: #333;
+}
+
+.hero-title {
+  @media screen and (min-width: 320px) {
+    z-index: 10;
+  }
+}
+
+.btn,
+.btn-outline {
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.btn {
+  background: #d5006d;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 2px solid #d5006d;
+  color: #d5006d;
+}
+
+.btn:hover,
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.hero-title {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.passion {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #d41443;
+}

@@ -10,13 +10,34 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
+      <div class="head-flex">
       <div class="logo">
         <img src="4.png" alt="icecream logo" />
       </div>
+            <nav class="mobile-nav active" id="mobile-menu">
+              <button id="close-menu" class="mobile-close-menu">X</button>
+        <ul class="mobile-header-list">
+          <li class="mobile-header-list-li">
+            <a class="mobile-header-list-link lip" href="#">Home</a>
+          </li>
+          <li class="mobile-header-list-li">
+            <a class="mobile-header-list-link" href="#">About us</a>
+          </li>
+          <li class="mobile-header-list-li">
+            <a class="mobile-header-list-link" href="#">How it’s made?</a>
+          </li>
+          <li class="mobile-header-list-li">
+            <a class="mobile-header-list-link" href="#">Our products</a>
+          </li>
+          <li class="mobile-header-list-li">
+            <a class="mobile-header-list-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
       <nav>
         <ul class="header-list">
           <li class="header-list-li">
@@ -36,12 +57,14 @@
           </li>
         </ul>
       </nav>
+      <button class="menu-button" id="menu-toggle"><svg class="svg-menu"><use href="./symbol-defs.svg#icon-Burger"></use></svg></button>
       <a href="#" class="btn-buy">Buy now</a>
+      </div>
     </header>
 
     <section class="hero">
       <div class="hero-text">
-        <h1>
+        <h1 class="hero-title">
           ICE CREAM <br />
           MADE WITH <span class="passion">PASSION</span>
         </h1>
