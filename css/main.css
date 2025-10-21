@@ -48,18 +48,31 @@ ol {
   }
 }
 
-.logo {
-  padding-left: 20px;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  color: #d5006d;
-  font-size: 220px;
+@media screen and (min-width: 320px) {
+  .logo {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #d5006d;
+    font-size: 220px;
+  }
 }
 
-.logo img {
-  width: 150px;
-  height: 50px;
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 150px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo img {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: -210px;
+    left: 15%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -77,16 +90,28 @@ ol {
     font-weight: bold;
     transition: 0.3s;
     white-space: nowrap;
+    position: relative;
+    bottom: -194px;
+    width: 160px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
   }
 }
 
-.btn-buy:hover {
-  background: #d5006d;
-  color: #fff;
+@media screen and (max-width: 767px) {
+  .btn-buy:hover {
+    background: #d5006d;
+    color: #fff;
+  }
 }
 
-.lip {
-  color: #d41443;
+@media screen and (max-width: 767px) {
+  .lip {
+    color: #d41443;
+  }
 }
 
 @media screen and (max-width: 1279px) {
@@ -95,22 +120,47 @@ ol {
   }
 }
 
-.svg-menu {
-  width: 20px;
-  height: 12px;
+@media screen and (min-width: 320px) {
+  .svg-menu {
+    width: 20px;
+    height: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .svg-menu {
+    width: 30px;
+    height: 17px;
+  }
 }
 
-.menu-button {
-  border: none;
-  outline: none;
-  background: none;
-  padding-right: 20px;
+@media screen and (min-width: 320px) {
+  .menu-button {
+    border: none;
+    outline: none;
+    background: none;
+    padding-right: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    position: relative;
+    bottom: -198px;
+    z-index: 3;
+    margin-right: -220px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu-button {
+    display: none;
+  }
 }
 
-.head-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@media screen and (min-width: 320px) {
+  .head-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .mobile-menu {
@@ -277,29 +327,37 @@ ol {
 @media screen and (min-width: 320px) {
   .icecream {
     width: 90;
-    max-width: 171px;
+    max-width: 17t1px;
     position: relative;
     z-index: 1;
     bottom: -30px;
     left: -70px;
   }
 }
-
-.circle {
-  width: 100%;
-  max-width: 480px;
-  aspect-ratio: 1/1;
-  background: #fcbad3;
-  border-radius: 50%;
-  margin: 0 auto;
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 0;
+@media screen and (min-width: 768px) {
+  .icecream {
+    width: 90;
+    max-width: 260px;
+    left: -180px;
+    position: relative;
+    bottom: -189px;
+    z-index: 1;
+  }
 }
+
 @media screen and (min-width: 320px) {
   .circle {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 1/1;
+    background: #fcbad3;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
     width: 346px;
     height: 344px;
     z-index: 0;
@@ -308,16 +366,33 @@ ol {
     background: #f6a6c6;
   }
 }
-
-.girl {
-  position: absolute;
-  bottom: -10px;
-  right: -50px;
-  text-align: center;
+@media screen and (min-width: 768px) {
+  .circle {
+    aspect-ratio: 1/1;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 240px;
+    left: 12%;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
 }
+
 @media screen and (min-width: 320px) {
   .girl {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .girl {
+    display: flex;
+    position: relative;
+    bottom: -3px;
+    right: -50px;
+    text-align: center;
   }
 }
 
@@ -325,9 +400,14 @@ ol {
   width: 232px;
   max-width: 40vw;
 }
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .girl img {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .girl img {
+    display: flex;
   }
 }
 
@@ -343,6 +423,11 @@ ol {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .girl p {
+    display: flex;
+  }
+}
 
 .eco {
   display: flex;
@@ -354,14 +439,19 @@ ol {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .eco {
+    display: flex;
+  }
+}
 
 .eco img {
   width: 250px;
   margin-right: 15px;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .eco img {
-    display: none;
+    display: flex;
   }
 }
 
@@ -373,6 +463,13 @@ ol {
 @media screen and (min-width: 320px) {
   .eco p {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .eco p {
+    display: flex;
+    position: relative;
+    z-index: 3;
   }
 }
 
@@ -390,6 +487,12 @@ ol {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .stats {
+    display: flex;
+    padding-right: 35px;
+  }
+}
 
 .stats .stat span {
   font-size: 36px;
@@ -401,6 +504,12 @@ ol {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .stats .stat span {
+    display: flex;
+    padding-right: 35px;
+  }
+}
 
 .stats .stat p {
   font-size: 16px;
@@ -409,6 +518,12 @@ ol {
 @media screen and (min-width: 320px) {
   .stats .stat p {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .stats .stat p {
+    display: flex;
+    padding-right: 35px;
   }
 }
 
@@ -501,6 +616,13 @@ ol {
     font-size: 33px;
   }
 }
+@media screen and (min-width: 320px) {
+  .hero-title {
+    position: relative;
+    left: -15%;
+    width: 240px;
+  }
+}
 
 .passion {
   font-family: "Titan One";
@@ -522,6 +644,12 @@ ol {
     align-items: center;
     margin-top: 19px;
     padding-left: 15px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .buttons {
+    position: relative;
+    left: -15%;
   }
 }
 
