@@ -68,9 +68,7 @@ header {
 }
 
 .lip {
-  @media screen and (max-width: 767px) {
-    color: #d41443;
-  }
+  color: #d41443;
 }
 
 .header-list {
@@ -118,4 +116,21 @@ header {
     align-items: center;
     justify-content: space-between;
   }
+}
+
+.pil {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.header-list-link {
+  margin-right: 15px;
 }

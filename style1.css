@@ -32,7 +32,6 @@ body {
 }
 
 .card {
-  /* flex: 0 0 335px;  */
   height: 735px;
   border-radius: 16px;
   color: #fff;

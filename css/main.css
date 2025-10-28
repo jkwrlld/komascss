@@ -105,10 +105,8 @@ ol {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .lip {
-    color: #d41443;
-  }
+.lip {
+  color: #d41443;
 }
 
 @media screen and (max-width: 1279px) {
@@ -163,6 +161,22 @@ ol {
     align-items: center;
     justify-content: space-between;
   }
+}
+
+.pil {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header-list-link {
+  margin-right: 15px;
 }
 
 .mobile-menu {
@@ -412,7 +426,7 @@ ol {
     display: flex;
     width: 168px;
     position: relative;
-    bottom: 150px;
+    bottom: 145px;
   }
 }
 
@@ -524,6 +538,7 @@ ol {
   .stats .stat span {
     display: flex;
     padding-right: 35px;
+    margin-bottom: 10px;
   }
 }
 
@@ -675,6 +690,10 @@ ol {
   }
 }
 
+.number {
+  font-family: "Titan One";
+}
+
 .card-group {
   display: block;
   justify-content: center;
@@ -684,7 +703,6 @@ ol {
   overflow-x: auto; /* <── якщо екран замалий, можна прокручувати */
   /* padding: 30px; */
   border-radius: 20px;
-  max-width: 1200px;
   margin: 0 auto;
 }
 @media screen and (min-width: 320px) {
@@ -692,9 +710,13 @@ ol {
     flex: 0 0 145px;
   }
 }
+@media screen and (min-width: 768px) {
+  .card-group {
+    display: flex;
+  }
+}
 
 .card {
-  flex: 0 0 335px;
   height: 735px;
   border-radius: 16px;
   color: #fff;
@@ -707,6 +729,11 @@ ol {
 @media screen and (min-width: 320px) {
   .card {
     flex: 0 0 145px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    flex: 20px;
   }
 }
 
@@ -826,6 +853,7 @@ ol {
 }
 
 .made-stats {
+  display: flex;
   background-color: #fff5f5;
   display: block;
   align-items: flex-start;
@@ -855,4 +883,62 @@ ol {
   line-height: 170%;
   /* or 20px */
   color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .made-stats .item .tex {
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quadro {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .quvalf {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .made .image img {
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 350px;
+    width: 350px;
+    margin-right: 50px;
+  }
+}
+
+.made .content .bbb {
+  /* Btn 5 */
+  background: #ffffff;
+  border-radius: 22px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #d41443;
+  border: none;
+  outline: none;
+  justify-content: center;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .made .content .bbb {
+    justify-content: left;
+  }
 }

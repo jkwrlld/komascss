@@ -80,7 +80,7 @@
     display: flex;
     width: 168px;
     position: relative;
-    bottom: 150px;
+    bottom: 145px;
   }
   width: 232px;
   max-width: 40vw;
@@ -169,6 +169,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     padding-right: 35px;
+    margin-bottom: 10px;
   }
   font-size: 36px;
   font-weight: bold;
@@ -312,4 +313,8 @@
   @media screen and (min-width: 768px) {
     height: 200px;
   }
+}
+
+.number {
+  font-family: "Titan One";
 }
