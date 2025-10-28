@@ -339,6 +339,11 @@ ol {
     background-color: #ffb8ca;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 665px;
+  }
+}
 
 @media screen and (min-width: 320px) {
   .icecream {
@@ -358,6 +363,15 @@ ol {
     position: relative;
     bottom: 6px;
     z-index: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icecream {
+    position: relative;
+    left: 5px;
+    width: 236px;
+    height: 557px;
+    bottom: 125px;
   }
 }
 
@@ -396,6 +410,14 @@ ol {
     z-index: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .circle {
+    width: 538px;
+    height: 538px;
+    left: 2%;
+    top: 90px;
+  }
+}
 
 @media screen and (min-width: 320px) {
   .girl {
@@ -409,6 +431,12 @@ ol {
     bottom: -3px;
     right: -50px;
     text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .girl {
+    position: relative;
+    right: -150px;
   }
 }
 
@@ -427,6 +455,12 @@ ol {
     width: 168px;
     position: relative;
     bottom: 145px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .girl img {
+    bottom: 362px;
+    width: 293px;
   }
 }
 
@@ -476,6 +510,11 @@ ol {
     left: -10%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .eco img {
+    left: -67%;
+  }
+}
 
 .eco p {
   font-size: 20px;
@@ -502,6 +541,11 @@ ol {
     color: #ffffff;
   }
 }
+@media screen and (min-width: 1200px) {
+  .eco p {
+    left: -67%;
+  }
+}
 
 .stats {
   position: absolute;
@@ -521,6 +565,11 @@ ol {
   .stats {
     display: flex;
     padding-right: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .stats {
+    top: 20%;
   }
 }
 
@@ -654,6 +703,11 @@ ol {
     width: 240px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    left: -75%;
+  }
+}
 
 .passion {
   font-family: "Titan One";
@@ -681,6 +735,11 @@ ol {
   .buttons {
     position: relative;
     left: -15%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .buttons {
+    left: -75%;
   }
 }
 
@@ -771,7 +830,7 @@ ol {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-.ice-cream {
+.ice {
   background-color: #f78da7;
   margin-bottom: 100px;
 }
