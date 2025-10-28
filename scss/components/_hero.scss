@@ -18,9 +18,9 @@
   @media screen and (min-width: 768px) {
     width: 143px;
     height: 336px;
-    left: -180px;
+    left: -80px;
     position: relative;
-    bottom: 0;
+    bottom: 6px;
     z-index: 1;
   }
 }
@@ -52,8 +52,8 @@
     border-radius: 50%;
     margin: 0 auto;
     position: absolute;
-    top: 240px;
-    left: 12%;
+    top: 160px;
+    left: -3%;
     transform: translateX(-50%);
     z-index: 0;
   }
@@ -79,6 +79,8 @@
   @media screen and (min-width: 768px) {
     display: flex;
     width: 168px;
+    position: relative;
+    bottom: 150px;
   }
   width: 232px;
   max-width: 40vw;
@@ -113,6 +115,9 @@
 .eco img {
   @media screen and (min-width: 768px) {
     display: flex;
+    position: relative;
+    width: 188px;
+    left: -10%;
   }
   width: 250px;
   margin-right: 15px;
@@ -126,6 +131,14 @@
     display: flex;
     position: relative;
     z-index: 3;
+    left: -10%;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    width: 200px;
+    color: #ffffff;
   }
   font-size: 20px;
   max-width: 280px;

@@ -77,6 +77,9 @@ header {
   @media screen and (max-width: 1279px) {
     display: none;
   }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .svg-menu {
@@ -102,6 +105,7 @@ header {
     bottom: -198px;
     z-index: 3;
     margin-right: -220px;
+    display: none;
   }
   @media screen and (min-width: 1200px) {
     display: none;
