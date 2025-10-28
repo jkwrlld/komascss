@@ -9,18 +9,18 @@
 .icecream {
   @media screen and (min-width: 320px) {
     width: 90;
-    max-width: 17t1px;
+    max-width: 171px;
     position: relative;
     z-index: 1;
     bottom: -30px;
     left: -70px;
   }
   @media screen and (min-width: 768px) {
-    width: 90;
-    max-width: 260px;
+    width: 143px;
+    height: 336px;
     left: -180px;
     position: relative;
-    bottom: -189px;
+    bottom: 0;
     z-index: 1;
   }
 }
@@ -47,8 +47,8 @@
   }
   @media screen and (min-width: 768px) {
     aspect-ratio: 1/1;
-    height: 600px;
-    width: 600px;
+    height: 322px;
+    width: 324px;
     border-radius: 50%;
     margin: 0 auto;
     position: absolute;
@@ -78,6 +78,7 @@
   }
   @media screen and (min-width: 768px) {
     display: flex;
+    width: 168px;
   }
   width: 232px;
   max-width: 40vw;
@@ -292,4 +293,10 @@
     left: -15%;
   }
   margin: 30px 0;
+}
+
+.hero-img {
+  @media screen and (min-width: 768px) {
+    height: 200px;
+  }
 }

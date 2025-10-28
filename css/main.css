@@ -37,8 +37,7 @@ ol {
 }
 @media screen and (min-width: 768px) {
   header {
-    padding-top: 6px;
-    padding-bottom: 160px;
+    padding-top: 37px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -69,7 +68,6 @@ ol {
   .logo img {
     width: 200px;
     height: 50px;
-    position: relative;
     bottom: -210px;
     left: 15%;
   }
@@ -90,7 +88,6 @@ ol {
     font-weight: bold;
     transition: 0.3s;
     white-space: nowrap;
-    position: relative;
     bottom: -194px;
     width: 160px;
     height: 44px;
@@ -143,7 +140,6 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .menu-button {
-    position: relative;
     bottom: -198px;
     z-index: 3;
     margin-right: -220px;
@@ -327,7 +323,7 @@ ol {
 @media screen and (min-width: 320px) {
   .icecream {
     width: 90;
-    max-width: 17t1px;
+    max-width: 171px;
     position: relative;
     z-index: 1;
     bottom: -30px;
@@ -336,11 +332,11 @@ ol {
 }
 @media screen and (min-width: 768px) {
   .icecream {
-    width: 90;
-    max-width: 260px;
+    width: 143px;
+    height: 336px;
     left: -180px;
     position: relative;
-    bottom: -189px;
+    bottom: 0;
     z-index: 1;
   }
 }
@@ -369,8 +365,8 @@ ol {
 @media screen and (min-width: 768px) {
   .circle {
     aspect-ratio: 1/1;
-    height: 600px;
-    width: 600px;
+    height: 322px;
+    width: 324px;
     border-radius: 50%;
     margin: 0 auto;
     position: absolute;
@@ -408,6 +404,7 @@ ol {
 @media screen and (min-width: 768px) {
   .girl img {
     display: flex;
+    width: 168px;
   }
 }
 
@@ -650,6 +647,12 @@ ol {
   .buttons {
     position: relative;
     left: -15%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 200px;
   }
 }
 
