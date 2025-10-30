@@ -227,6 +227,11 @@
 .made .content .bbb {
   @media screen and (min-width: 768px) {
     justify-content: left;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 37px;
+    padding-right: 37px;
+    width: 176px;
   }
   /* Btn 5 */
 
@@ -238,7 +243,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 18px;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
 
