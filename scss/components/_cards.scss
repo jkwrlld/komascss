@@ -20,12 +20,19 @@
 .card {
   @media screen and (min-width: 320px) {
     flex: 0 0 145px;
+    height: 485px;
+    width: 280px;
   }
   @media screen and (min-width: 768px) {
     flex: 20px;
+    height: 485px;
+    width: 220px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 525px;
+    width: 329px;
   }
 
-  height: 735px;
   border-radius: 16px;
   color: #fff;
   display: flex;
@@ -51,7 +58,9 @@
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 10px;
+  margin: -25px auto 10px;
+  position: relative;
+  z-index: 2;
 }
 
 .button {
@@ -71,17 +80,17 @@
 }
 
 .ice {
-  background-color: #f78da7;
+  background-color: #ffb8ca;
   margin-bottom: 100px;
 }
 
 .ice-coffee {
-  background-color: #d8bfa2;
+  background-color: #f0d1a5;
   margin-bottom: 100px;
 }
 
 .milkshake {
-  background-color: #8fcf9c;
+  background-color: #c2e297;
 }
 
 .title-section {

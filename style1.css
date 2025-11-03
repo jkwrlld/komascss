@@ -32,7 +32,7 @@ body {
 }
 
 .card {
-  height: 735px;
+  /* height: 735px; */
   border-radius: 16px;
   color: #fff;
   display: flex;
@@ -54,12 +54,12 @@ body {
   margin-bottom: 20px;
 }
 
-.card img {
+/* .card img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto 10px;
-}
+} */
 
 .button {
   position: relative;
@@ -79,7 +79,7 @@ body {
   bottom: 35px;
 }
 
-.ice-cream {
+/* .ice-cream {
   background-color: #f78da7;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .milkshake {
   background-color: #8fcf9c;
-}
+} */
 
 .title-section {
   margin-top: 80px;
