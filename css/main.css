@@ -824,22 +824,6 @@ ol {
   z-index: 2;
 }
 
-.button {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  border: none;
-  margin: 0 auto;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  color: #333;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
 .ice {
   background-color: #ffb8ca;
   margin-bottom: 100px;
@@ -895,6 +879,12 @@ ol {
   color: #333;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   bottom: 20px;
+}
+@media screen and (min-width: 320px) {
+  .button {
+    bottom: 15px;
+    position: relative;
+  }
 }
 
 .tradi {
@@ -968,6 +958,7 @@ ol {
 @media screen and (min-width: 768px) {
   .quvalf {
     display: flex;
+    justify-content: center;
   }
 }
 
@@ -982,8 +973,8 @@ ol {
     height: auto;
     -o-object-fit: contain;
        object-fit: contain;
-    height: 350px;
-    width: 350px;
+    height: 279px;
+    width: 280px;
     margin-right: 50px;
   }
 }
@@ -995,7 +986,6 @@ ol {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
   line-height: 18px;
   display: block;
   align-items: center;
@@ -1005,6 +995,12 @@ ol {
   outline: none;
   justify-content: center;
   margin-top: 50px;
+  transition: background-color 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@media screen and (min-width: 320px) {
+  .made .content .bbb {
+    font-size: 15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .made .content .bbb {
@@ -1012,7 +1008,228 @@ ol {
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 37px;
-    padding-right: 37px;
+    padding-right: 30px;
     width: 176px;
+    font-size: 18px;
+  }
+}
+
+.made .content .bbb:hover {
+  background-color: #ecebeb;
+}
+
+.made .content .ttt {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 162%;
+  /* or 19px */
+  margin-top: 35px;
+  color: #907e82;
+}
+@media screen and (min-width: 320px) {
+  .made .content .ttt {
+    width: 220px;
+    height: 180px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    /* or 19px */
+    color: #907e82;
+  }
+}
+@media screen and (min-width: 768px) {
+  .made .content .ttt {
+    width: 340px;
+    height: 155px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 176%;
+    /* or 25px */
+    letter-spacing: 0.04em;
+    color: #907e82;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .made .content .ttt {
+    width: 463px;
+    height: 155px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 194%;
+    /* or 27px */
+    letter-spacing: 0.04em;
+    color: #907e82;
+  }
+}
+
+.made .content p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 162%;
+  /* or 19px */
+  color: #000000;
+}
+@media screen and (min-width: 320px) {
+  .made .content p {
+    width: 220px;
+    height: 79px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162%;
+    /* or 19px */
+    color: #000000;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .made .content p {
+    width: 340px;
+    height: 79px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 176%;
+    /* or 25px */
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .made .content p {
+    width: 463px;
+    height: 79px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 176%;
+    /* or 28px */
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .made .image {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .made .image {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .made .content h2 {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+}
+@media screen and (min-width: 768px) {
+  .made .content h2 {
+    width: 429px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .made .content h2 {
+    width: 534px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .made .content h3 {
+    margin: 0 auto;
+    width: 198px;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .made .content h3 {
+    width: 285px;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .made .content h3 {
+    width: 351px;
+    font-family: "Titan One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffa5ba;
+    margin-top: 100px;
   }
 }
